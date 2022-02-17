@@ -325,6 +325,9 @@ button {
   justify-content: flex-end;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 39.04%, rgba(0, 0, 0, 0.85) 84.04%);
 }
+.preview-image__inner_preview {
+  padding-bottom: 0;
+}
 .preview-image__picure {
   display: block;
   height: 403px;
