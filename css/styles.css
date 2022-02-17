@@ -133,7 +133,7 @@ button {
   background-color: #DF3737;
   cursor: pointer;
   transition: all .2s linear;
-  z-index: 9998;
+  z-index: 9;
 }
 .menu-icon__burger_open {
   background-color: #ffffff;
@@ -276,6 +276,9 @@ button {
 .categorie_bigger img {
   height: 430px;
 }
+.categorie_modal img {
+  height: 150px;
+}
 .categorie__image {
   display: block;
   width: 100%;
@@ -291,6 +294,11 @@ button {
 .categorie__text_second {
   font-size: 16px;
   padding: 22px 30px 22px 24px;
+}
+.categorie__text_modal {
+  font-size: 14px;
+  line-height: 18px;
+  padding: 5px 16px;
 }
 .categories-info {
   display: none;
@@ -738,7 +746,121 @@ button {
   font-size: 10px;
 }
 /* Footer styles end */
+/* Modal styles start */
+.modal {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: none;
+  z-index: 390;
+  cursor: pointer;
+}
 
+.modal-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  cursor: auto;
+}
+
+.modal-block {
+  z-index: 99999;
+  max-width: 1032px;
+  overflow: hidden;
+  cursor: default;
+}
+
+.modal-content {
+  width: 100%;
+  background: #ffffff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 18px 60px 0 60px;
+}
+.modal-title {
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 34px;
+}
+.modal-close {
+  position: absolute;
+  top: 0px;
+  right: 0;
+  width: 54px;
+  height: 54px;
+  cursor: pointer;
+  background-color: #DF3737;
+  background-image: url(../images/svg/close.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 12px;
+}
+
+.modal-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.modal-btn {
+  display: block;
+  max-width: 195px;
+  margin-bottom: 5px;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: 2px solid #DF3737;
+  text-align: center;
+  padding: 15px 20px;
+  transition: all .5s ease;
+}
+
+.modal-btn:hover {
+  background: #fff;
+  color: rgb(176, 73, 59);
+}
+
+@media(max-width: 767px) {
+  .modal-content {
+      width: 85%;
+  }
+}
+
+@media (max-width: 479px) {
+  .modal-main {
+      padding: 10px 0 10px;
+  }
+
+  .modal-content {
+      padding: 10px;
+  }
+  .modal-btn {
+      font-size: 20px;
+      padding: 15px;
+      width: 80%;
+      margin: 0 auto;
+  }
+}
+
+@media screen and (-ms-high-contrast: active),
+(-ms-high-contrast: none) {
+  .modal-main {
+      max-width: 100%;
+  }
+}
+/* Modal styles end */
 /* MEDIA QUERIES */
 @media (max-width: 1170px) {
   .container {
@@ -927,6 +1049,9 @@ button {
   }
   .partners_main {
     margin-bottom: 15px;
+  }
+  .modal-content {
+    padding: 18px 30px 0 30px;
   }
 }
 @media (max-width: 768px) {
