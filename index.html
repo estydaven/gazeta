@@ -27,30 +27,32 @@
                 </div>
                 <nav class="header__nav">
                     <ul class="menu">
-                        <li class="menu__item menu__item_header"><a href="categories.html" class="menu__link menu__link_header">Новости и анонсы</a></li>
-                        <li class="menu__item menu__item_header"><a href="categories.html" class="menu__link menu__link_header">Шоу-биз</a></li>
-                        <li class="menu__item menu__item_header"><a href="categories.html" class="menu__link menu__link_header">Политика и общество</a></li>
-                        <li class="menu__item menu__item_header"><a href="categories.html" class="menu__link menu__link_header">Здоровье</a></li>
-                        <li class="menu__item menu__item_header"><a href="categories.html" class="menu__link menu__link_header">Экономика</a></li>
                         <li class="menu__item menu__item_header"><a href="categories.html" class="menu__link menu__link_header">Общество</a></li>
+                        <li class="menu__item menu__item_header"><a href="categories.html" class="menu__link menu__link_header">Политика</a></li>
+                        <li class="menu__item menu__item_header"><a href="categories.html" class="menu__link menu__link_header">Шоу-бизнес</a></li>
+                        <li class="menu__item menu__item_header"><a href="categories.html" class="menu__link menu__link_header">Эзотерика</a></li>
+                        <li class="menu__item menu__item_header"><a href="categories.html" class="menu__link menu__link_header">Наука</a></li>
+                        <li class="menu__item menu__item_header"><a href="categories.html" class="menu__link menu__link_header">В мире</a></li>
                     </ul>
                 </nav>
-                <div class="currency">
-                    <div class="currency__block">
-                        <div class="currency__image">
-                            <img src="images/svg/usd.svg" alt="">
+                <div class="header__wrap">
+                    <div class="currency">
+                        <div class="currency__block">
+                            <div class="currency__image">
+                                <img src="images/svg/usd.svg" alt="">
+                            </div>
+                            <p class="currency__text">76,19</p>
                         </div>
-                        <p class="currency__text">76,19</p>
-                    </div>
-                    <div class="currency__block">
-                        <div class="currency__image currency__image_eur">
-                            <img src="images/svg/eur.svg" alt="">
+                        <div class="currency__block">
+                            <div class="currency__image currency__image_eur">
+                                <img src="images/svg/eur.svg" alt="">
+                            </div>
+                            <p class="currency__text">92,13</p>
                         </div>
-                        <p class="currency__text">92,13</p>
                     </div>
-                </div>
-                <div class="search">
-                    <a href="index.html" class="search__link"><img src="images/svg/search.svg" alt=""></a>                    
+                    <div class="search">
+                        <a href="#" class="search__link"><img src="images/svg/search.svg" alt=""></a>                    
+                    </div>
                 </div>
             </div>
         </div>
@@ -58,16 +60,16 @@
     <main>
         <div class="container">
             <div class="preview preview_main">
-                <div class="preview-image preview-image_main">
+                <a href="preview.html" class="preview-image preview-image_main">
                     <img src="images/image-big2.jpg" alt="" class="preview-image__picure preview-image__picure_main">
                     <div class="preview-image__wrap">
                         <h4 class="preview-image__title">Найдена самая дорогая комната Москвы</h4>
                         <div class="info">
-                            <a href="preview.html" class="more more_info text-red">Подробнее</a>
+                            <p class="more more_info text-red">Подробнее</p>
                             <p class="teaser-arcticle__date">3 минуты назад</p>                            
                         </div>
                     </div>
-                </div>
+                </a>
                 <div class="preview__teasers">
                     <h3 class="preview-title preview-title_main">Главные новости</h3>
                     <a href="preview.html" class="teaser teaser_main">
@@ -351,12 +353,12 @@
                     <img src="images/svg/logo.svg" class="footer__image" alt="">
                 </a>
                 <ul class="menu menu_footer">
-                    <li class="menu__item menu__item_footer"><a href="categories.html" class="menu__link">Новости и анонсы</a></li>
-                    <li class="menu__item menu__item_footer"><a href="categories.html" class="menu__link">Шоу-биз</a></li>
-                    <li class="menu__item menu__item_footer"><a href="categories.html" class="menu__link">Политика и общество</a></li>
-                    <li class="menu__item menu__item_footer"><a href="categories.html" class="menu__link">Здоровье</a></li>
-                    <li class="menu__item menu__item_footer"><a href="categories.html" class="menu__link">Экономика</a></li>
                     <li class="menu__item menu__item_footer"><a href="categories.html" class="menu__link">Общество</a></li>
+                    <li class="menu__item menu__item_footer"><a href="categories.html" class="menu__link">Полиика</a></li>
+                    <li class="menu__item menu__item_footer"><a href="categories.html" class="menu__link">Шоу-бизнес</a></li>
+                    <li class="menu__item menu__item_footer"><a href="categories.html" class="menu__link">Эзотерика</a></li>
+                    <li class="menu__item menu__item_footer"><a href="categories.html" class="menu__link">Наука</a></li>
+                    <li class="menu__item menu__item_footer"><a href="categories.html" class="menu__link">В мире</a></li>
                 </ul>
                 <div class="footer__privacy">
                     <span class="footer-privacy__date">2022</span> Gazeta - Все права защищены и принадлежат владельцу.
@@ -373,38 +375,26 @@
                 <h3 class="modal-title">Самые актуальные новости</h3>
                 <div class="modal-inner">
                     <div class="categories">
-                        <a href="preview.html" class="categorie categorie_modal categorie__big">
-                            <img class="categorie__image" src="images/image-middle3.jpg" alt="">
+                        <div class="categorie categorie_modal categorie__big">
+                            <img class="categorie__image" src="images/preview.jpg" alt="">
                             <p class="categorie__text categorie__text_modal">Глаукома и катаракта уходят навсегда нужно только сделать после полуночи волшебный элик...</p>
-                        </a>
+                        </div>
                         <a href="preview.html" class="categorie categorie_modal categorie__big">
                             <img class="categorie__image" src="images/image-middle.jpg" alt="">
                             <p class="categorie__text categorie__text_modal">Глаукома и катаракта уходят навсегда нужно только сделать после полуночи волшебный элик...</p>
                         </a>
-                        <a href="preview.html" class="categorie categorie_modal categorie__big">
-                            <img class="categorie__image" src="images/image-middle5.jpg" alt="">
+                        <div class="categorie categorie_modal categorie__big">
+                            <img class="categorie__image" src="images/preview.jpg" alt="">
                             <p class="categorie__text categorie__text_modal">Глаукома и катаракта уходят навсегда нужно только сделать после полуночи волшебный элик...</p>
-                        </a>
-                        <a href="preview.html" class="categorie categorie_modal categorie__big">
-                            <img class="categorie__image" src="images/image-middle6.jpg" alt="">
-                            <p class="categorie__text categorie__text_modal">Глаукома и катаракта уходят навсегда нужно только сделать после полуночи волшебный элик...</p>
-                        </a>
+                        </div>
                         <a href="preview.html" class="categorie categorie_modal categorie__big">
                             <img class="categorie__image" src="images/image-middle6.jpg" alt="">
                             <p class="categorie__text categorie__text_modal">Глаукома и катаракта уходят навсегда нужно только сделать после полуночи волшебный элик...</p>
                         </a>
-                        <a href="preview.html" class="categorie categorie_modal categorie__big">
-                            <img class="categorie__image" src="images/image-middle6.jpg" alt="">
+                        <div class="categorie categorie_modal categorie__big">
+                            <img class="categorie__image" src="images/preview.jpg" alt="">
                             <p class="categorie__text categorie__text_modal">Глаукома и катаракта уходят навсегда нужно только сделать после полуночи волшебный элик...</p>
-                        </a>
-                        <a href="preview.html" class="categorie categorie_modal categorie__big">
-                            <img class="categorie__image" src="images/image-middle6.jpg" alt="">
-                            <p class="categorie__text categorie__text_modal">Глаукома и катаракта уходят навсегда нужно только сделать после полуночи волшебный элик...</p>
-                        </a>
-                        <a href="preview.html" class="categorie categorie_modal categorie__big">
-                            <img class="categorie__image" src="images/image-middle6.jpg" alt="">
-                            <p class="categorie__text categorie__text_modal">Глаукома и катаракта уходят навсегда нужно только сделать после полуночи волшебный элик...</p>
-                        </a>
+                        </div>
                         <a href="preview.html" class="categorie categorie_modal categorie__big">
                             <img class="categorie__image" src="images/image-middle6.jpg" alt="">
                             <p class="categorie__text categorie__text_modal">Глаукома и катаракта уходят навсегда нужно только сделать после полуночи волшебный элик...</p>
@@ -412,7 +402,7 @@
                     </div>
                 </div>
                 <div>
-                    <a class="modal-btn" href="index.html">Больше новостей</a>
+                    <a class="modal-btn" href="teasers.html">Больше новостей</a>
                 </div>
               </div>
             </div>
