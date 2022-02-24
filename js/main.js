@@ -41,3 +41,12 @@ function hidePopup() {
 
 button.addEventListener('click', hidePopup);
 close.addEventListener('click', hidePopup);
+
+
+let sizeNews = 120,
+    newsContent= $('.main-title'),
+    newsText = newsContent.text();
+    
+if(newsText.length > sizeNews){
+	newsContent.text(newsText.slice(0, sizeNews) + ' ...');
+}
