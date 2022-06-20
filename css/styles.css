@@ -1059,7 +1059,7 @@ button {
     margin-bottom: 13px;
   }
   .teaser__image {
-    width: 101px;
+    width: 130px;
     height: 100px;
   }
   .aside {
@@ -1214,7 +1214,8 @@ button {
     display: none;
   }
   .teaser__image {
-    height: 96px;
+    height: 82px;
+    width: 101px;
   }
 }
 @media (max-width: 480px) {
