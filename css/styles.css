@@ -1362,3 +1362,8 @@ button {
     padding-bottom: 20px;
   }
 }
+@media (max-width: 332px) {
+  .teaser__text_article {
+    line-height: 11px;
+  }
+}
