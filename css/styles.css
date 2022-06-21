@@ -1258,7 +1258,7 @@ button {
   }
   .teaser__image_arcticle {
     width: 117px;
-    height: 100px;
+    height: 95px;
   }
   .preview-image__picure_main {
     height: 270px;
@@ -1318,11 +1318,13 @@ button {
   }
   .teaser__image_arcticle {
     height: 110px;
+    width: 132px;
   }
 }
 @media (max-width: 393px) {
   .teaser__image_arcticle {
     height: 107px;
+    width: 129px;
   }
 }
 @media (max-width: 375px) {
@@ -1338,8 +1340,8 @@ button {
 }
 @media (max-width: 360px) {
   .teaser__image_arcticle {
-    height: 110px;
-    width: 100px;
+    height: 98px;
+    width: 125px;
   }
   .teaser__text_article {
     font-size: 12px;
