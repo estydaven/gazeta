@@ -278,11 +278,14 @@ button {
 .categorie__big img {
   height: 261px;
 }
+.categorie__main-img img {
+  height: 227px;
+}
 .categorie_bigger img {
-  height: 430px;
+  height: 403px;
 }
 .categorie_modal img {
-  height: 150px;
+  height: 170px;
 }
 .categorie__image {
   display: block;
@@ -311,7 +314,7 @@ button {
 .categorie__text_bigger {
   font-size: 18px;
   line-height: 26px;
-  padding: 17px 68px 9px 27px;
+  padding: 32px 68px 26px 27px;
 }
 .categories-info {
   display: none;
@@ -361,6 +364,7 @@ button {
   object-fit: cover;
 }
 .preview-image__picure_main {
+  width: 536px;
   height: 407px;
   margin-bottom: 22px;
 }
@@ -451,11 +455,18 @@ button {
   width: 103px;
   height: 81px;
 }
+.teaser__image_new {
+  width: 200px;
+}
 .teaser__info {
   padding: 18px 80px 18px 25px;
 }
 .teaser__info_main {
   padding: 10px 81px 0 20px;
+}
+.teaser__info_new {
+  padding: 18px 45px 18px 25px;
+  width: 65%;
 }
 .teaser__head {
   font-size: 13px;
@@ -597,7 +608,7 @@ button {
   display: none;
 }
 .teaser__info_article {
-  padding: 16px 20px 17px 17px;
+  padding: 8px 20px 9px 17px;
 }
 .teaser__head_article {
   margin-bottom: 10px;
@@ -672,7 +683,7 @@ button {
 }
 .teaser__image_arcticle {
   width: 144px;
-  height: 135px;
+  height: 117px;
 }
 .article__title {
   font-size: 22px;
@@ -1279,7 +1290,7 @@ button {
     line-height: 16px;
   }
   .teaser__info {
-    padding: 2px 5px 4px 8px;
+    padding: 1px 5px 1px 8px;
   }
   .teaser__head_categorie {
     display: none;
@@ -1323,19 +1334,19 @@ button {
 }
 @media (max-width: 393px) {
   .teaser__image_arcticle {
-    height: 107px;
-    width: 129px;
+    height: 95px;
+    width: 117px;
   }
 }
 @media (max-width: 375px) {
   .categorie:nth-child(3n+3) img {
-    height: 200px;
+    height: 300px;
   }
   .categorie__middle img {
-    height: 100px;
+    height: 115px;
   }
   .categorie__big img {
-    height: 100px;
+    height: 115px;
   }
 }
 @media (max-width: 360px) {
